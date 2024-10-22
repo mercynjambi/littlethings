@@ -1,9 +1,19 @@
+import React from 'react';
+import Navbar from './components/Navbar';
+
 function App() {
   return (
-    <div className="text-center">
-      <h1 className="text-4xl font-bold text-blue-600">
-        Welcome to My React App with Tailwind CSS!
-      </h1>
+   
+      <div className="flex flex-col h-screen">
+        <Navbar />
+        {/* <HeroSection />
+        <AboutSection />
+        <ProjectsSection />
+        <VolunteerSection />
+        <NewsSection />
+        <ContactSection />
+        <DonateSection /> */}
+  
     </div>
   );
 }
