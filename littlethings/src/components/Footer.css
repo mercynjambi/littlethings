@@ -1,0 +1,134 @@
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f8f9fa;
+    color: #333;
+    flex-wrap: wrap;
+}
+
+.footer-left, .footer-middle, .footer-company, .footer-right {
+    max-width: 300px;
+    margin: 10px;
+}
+
+/* Left Section */
+.footer-left h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.footer-left p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+/* Middle Section */
+.footer-middle h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-middle ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-middle li {
+    margin-bottom: 10px;
+}
+
+.footer-middle a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 16px;
+}
+
+.footer-middle a:hover {
+    text-decoration: underline;
+}
+
+/* Company Section */
+.footer-company h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-company ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-company li {
+    margin-bottom: 10px;
+}
+
+.footer-company a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 16px;
+}
+
+.footer-company a:hover {
+    text-decoration: underline;
+}
+
+/* Right Section */
+.footer-right h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-right form {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-right input {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+.footer-right button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.footer-right button:hover {
+    background-color: #0056b3;
+}
+
+/* Social Icons */
+.social-icons a {
+    margin-right: 10px;
+    font-size: 30px;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #007bff;
+}
+
+/* Bottom Section */
+.footer-bottom {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-bottom hr {
+    margin-bottom: 10px;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+}

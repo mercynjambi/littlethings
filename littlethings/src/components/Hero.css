@@ -1,0 +1,51 @@
+.hero {
+    background-image: url(https://media.istockphoto.com/id/1486910056/photo/hand-giving-heart-love-help-support-kindness.webp?a=1&b=1&s=612x612&w=0&k=20&c=89e9xnX-uk3bZ9I2vEo9MF0NN5JrzRtYeuBzYDpeWAk=);
+    background-size: cover; /* Makes the image cover the whole container */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 100vh; /* Sets the height of the section to 100% of the viewport height */
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+  }
+
+  .my-h3{
+    color:black;
+    margin-left:10px;
+    font-weight: bold;
+    font-size: 24px;
+  }
+
+  .catchmsg{
+    margin-left: 10px;
+    font-size: 70px;
+    font-weight:bold;
+    color:black;
+  }
+
+  .hero-text{
+    margin-left:10px;
+    font-size:18px;
+  }
+
+  .herobuttons{
+    display:flex;
+    margin-bottom:20px;
+  }
+
+  .herobutton{
+    display:flex;
+    gap: 10px;
+    margin-top: 10px;
+    margin-left:10px;
+    background-color: yellow;
+    border-radius: 20px;
+    width:120px;
+    padding:10px;
+  }
+
+
+
+
+  

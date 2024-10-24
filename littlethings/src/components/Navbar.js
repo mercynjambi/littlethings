@@ -23,6 +23,7 @@ const Navbar = () => {
         
         <div className="donate-button">
           <button>Donate</button>
+          
         </div>
       
     </nav>
