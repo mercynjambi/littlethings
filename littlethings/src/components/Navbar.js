@@ -1,31 +1,24 @@
 import React from "react";
-import './Navbar.css'
+import './Navbar.css';
+import logo from './assets/logo1.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 const Navbar = () => {
   return (
-    <nav className="navbar">
-
-              
-        <div className="logo" >
-            LittleThings          
-        </div>
-
-        
-        <div className="nav-links">
-          <a href="#home">Home</a>
-          <a href="#about-us">About</a>
-          <a href="#projects">Projects</a>
-          <a href="#volunteer">Volunteer</a>
-          <a href="#news">News</a>
-          <a href="#contacts">Contacts</a>
-        </div>
-
-        
-        <div className="donate-button">
-          <button>Donate</button>
-          
-        </div>
+    <nav className="navbar container">       
       
+        <img src={logo} alt="Logo"  className="logo"/>
+     
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about-us">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#volunteer">Volunteer</a></li>
+          <li><a href="#contacts">Contacts</a></li>
+          <li><button className="btn">Donate</button></li>
+        </ul>
+    
     </nav>
   );
 };

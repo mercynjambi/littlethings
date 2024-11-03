@@ -25,24 +25,24 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="footer-middle">
+      {/* <div className="footer-middle">
         <h3>Quick Links</h3>
-        <ul>
+        <ul className="footer-middle-ul">
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About Us</a></li>
           <li><a href="#services">Services</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
-      </div>
+      </div> */}
 
-      <div className="footer-company">
+      {/* <div className="footer-company">
         <h3>Company</h3>
-        <ul>
+        <ul classname="footer-company-ul">
           <li><a href="#terms">Terms and Conditions</a></li>
           <li><a href="#privacy">Privacy Policy</a></li>
           <li><a href="#cookies">Cookie Preferences</a></li>
         </ul>
-      </div>
+      </div> */}
 
       <div className="footer-right">
         <h3>Contact Us</h3>

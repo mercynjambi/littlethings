@@ -1,0 +1,46 @@
+.programs {
+    margin: 80px auto;
+    width: 90%;
+    text-align: center; /* Center text for the title */
+}
+
+.programs h2 {
+    font-weight: bold;
+}
+
+.program-container {
+    display: flex;
+    justify-content: space-around; /* Space items evenly */
+    margin-top: 20px; /* Add margin for spacing */
+}
+
+.program {
+    flex: 1; /* Make each program take equal space */
+    margin: 0 10px; /* Add horizontal spacing */
+    position: relative;
+}
+
+.program img {
+    width: 100%;
+    height: 250px; /* Set a fixed height for all images */
+    object-fit: cover; /* Cover the area while maintaining aspect ratio */
+    border-radius: 10px;
+    display: block;
+}
+
+.caption {
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0; /* Position at the bottom */
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    cursor: pointer;
+    background: rgba(0, 15, 152, 0.7); /* Adjust opacity for better readability */
+    padding: 10px;
+    margin-top: 20px; /* Add padding for the caption */
+}

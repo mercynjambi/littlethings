@@ -2,8 +2,8 @@
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    background-color: #f8f9fa;
-    color: #333;
+    background-color: #125B50;
+    color: white;
     flex-wrap: wrap;
 }
 
@@ -40,7 +40,7 @@
 
 .footer-middle a {
     text-decoration: none;
-    color: #007bff;
+    color: white;
     font-size: 16px;
 }
 
@@ -54,18 +54,19 @@
     margin-bottom: 10px;
 }
 
-.footer-company ul {
+.footer-company .footer-company ul {
     list-style-type: none;
     padding: 0;
 }
 
-.footer-company li {
+
+.footer-company .footer-company li {
     margin-bottom: 10px;
 }
 
 .footer-company a {
     text-decoration: none;
-    color: #007bff;
+    color: white;
     font-size: 16px;
 }
 
@@ -94,7 +95,7 @@
 
 .footer-right button {
     padding: 10px;
-    background-color: #007bff;
+    background-color: #F8B400;
     color: white;
     border: none;
     border-radius: 20px;
@@ -115,7 +116,7 @@
 }
 
 .social-icons a:hover {
-    color: #007bff;
+    color: #FF6363;
 }
 
 /* Bottom Section */
