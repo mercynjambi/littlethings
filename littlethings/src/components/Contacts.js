@@ -22,7 +22,7 @@ const Contacts = () => {
         </div>
 
         <div className="contact-col">
-            <form>
+            <form >
                 <label>Your Name</label><br/>
                 <input type="text"  name="name" placeholder='Enter Your Name' required/>
                 <br/>

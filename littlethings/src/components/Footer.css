@@ -1,135 +1,29 @@
-.footer-container {
-    display: flex;
+.footer{
+    margin:10px auto;
+    display:flex;
+    align-items: center;
     justify-content: space-between;
-    padding: 20px;
-    background-color: #125B50;
-    color: white;
-    flex-wrap: wrap;
+    border-top: 1 px solid #797979;
+    padding:15px 0;
 }
 
-.footer-left, .footer-middle, .footer-company, .footer-right {
-    max-width: 300px;
-    margin: 10px;
-}
-
-/* Left Section */
-.footer-left h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-.footer-left p {
-    font-size: 16px;
-    margin-bottom: 15px;
-}
-
-/* Middle Section */
-.footer-middle h3 {
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-
-.footer-middle ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.footer-middle li {
-    margin-bottom: 10px;
-}
-
-.footer-middle a {
-    text-decoration: none;
-    color: white;
-    font-size: 16px;
-}
-
-.footer-middle a:hover {
-    text-decoration: underline;
-}
-
-/* Company Section */
-.footer-company h3 {
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-
-.footer-company .footer-company ul {
-    list-style-type: none;
-    padding: 0;
+.footer ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
 }
 
 
-.footer-company .footer-company li {
-    margin-bottom: 10px;
-}
+@media(max-width:600px){
+    .footer{
+        display: block;
+        text-align: center;
+    }
 
-.footer-company a {
-    text-decoration: none;
-    color: white;
-    font-size: 16px;
-}
-
-.footer-company a:hover {
-    text-decoration: underline;
-}
-
-/* Right Section */
-.footer-right h3 {
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-
-.footer-right form {
-    display: flex;
-    flex-direction: column;
-}
-
-.footer-right input {
-    margin-bottom: 10px;
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 20px;
-}
-
-.footer-right button {
-    padding: 10px;
-    background-color: #F8B400;
-    color: white;
-    border: none;
-    border-radius: 20px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.footer-right button:hover {
-    background-color: #0056b3;
-}
-
-/* Social Icons */
-.social-icons a {
-    margin-right: 10px;
-    font-size: 30px;
-    color: #333;
-    transition: color 0.3s;
-}
-
-.social-icons a:hover {
-    color: #FF6363;
-}
-
-/* Bottom Section */
-.footer-bottom {
-    width: 100%;
-    text-align: center;
-    margin-top: 20px;
-}
-
-.footer-bottom hr {
-    margin-bottom: 10px;
-}
-
-.footer-bottom p {
-    font-size: 14px;
+    .footer ul li{
+        margin:10px;
+    }
+    .footer ul{
+        margin-top: 10px;
+    }
 }

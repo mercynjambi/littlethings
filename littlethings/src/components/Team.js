@@ -4,6 +4,7 @@ import hulda1 from './assets/hulda1.jpg';
 import njambi1 from './assets/njambi1.jpg';
 import robi1 from './assets/robi1.jpg';
 import robi2 from './assets/robi2.jpg';
+import educator from './assets/educator.jpg';
 
 const Team = () => {
   return (
@@ -20,6 +21,12 @@ const Team = () => {
           <img src={hulda1} alt="hulda" />
           <div className="caption">
             <p>Marketing & Business Advisor</p>
+          </div>
+        </div>
+        <div className="program">
+          <img src={educator} alt="educator" />
+          <div className="caption">
+            <p>Counsellor</p>
           </div>
         </div>
         <div className="program">

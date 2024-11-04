@@ -34,7 +34,7 @@ function App() {
                 <Testimonials/>
                 <Involve />
                 <Contacts/>
-                <Footer />
+                {/* <Footer /> */}
               </>
             }
           />
