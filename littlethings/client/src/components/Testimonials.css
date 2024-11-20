@@ -1,0 +1,134 @@
+/* .testimonials{
+    margin:80px auto;
+    padding:0 80px;
+    position:relative;
+    background-color:#094c3b ;
+} */
+
+
+.testimonials {
+    margin: 80px auto;
+    padding: 0 80px;
+    position: relative;
+    background-color: #094c3b;
+    text-align: center; /* This will center text elements horizontally */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers the content horizontally */
+    justify-content: center; /* Centers the content vertically */
+    height: 100vh; /* Takes full viewport height to center vertically */
+}
+
+h1 {
+    font-size: 2.5rem; /* Adjust to desired size */
+    margin-bottom: 20px; /* Space below the title */
+    color: #fff; /* White color for text */
+}
+
+p {
+    font-size: 1.2rem; /* Adjust to desired size */
+    color: #fff; /* White color for text */
+    margin-bottom: 40px; /* Space below the paragraph */
+}
+
+.next-btn, .back-btn{
+    position:absolute;
+    top:50%;
+    right:0;
+    border-radius: 50%;
+    transform:translateY(-50%);
+    padding:15px;
+    width:50px;
+    cursor:pointer;
+    background:#ff521a;
+}
+.back-btn{
+    right:auto;
+    left:0;
+}
+
+.slider{
+    overflow:hidden; 
+    margin-bottom: 30px;
+}
+.slider ul{
+    display:flex;
+    width:200%;
+    overflow-x:hidden;
+    transition: 0.5s;
+    transform:translateX(-15%)
+}
+
+.slider ul li{
+  list-style: none;
+  width:50%;
+  padding: 20px;
+}
+
+
+.slide{
+    box-shadow:0 0 20px rgba(234, 225, 225, 0.05);
+    padding:40px;
+    border-radius: 10px;
+    color:white;
+    line-height:1.4;
+}
+.slide img{
+    width:65px;
+    border-radius: 50%;
+   
+    margin-right:10px;
+    border: 4px solid #ff521a;;
+}
+.user-info{
+    display: flex;
+    align-items: center;
+    margin-bottom:20px;
+    font-size:15px;
+}
+.user-info h3{
+    color:white;
+}
+
+
+/* media query  */
+
+@media(max-width:800px){
+    .testimonials{
+        padding:0 40px;
+    }
+    .next-btn, .back-btn{
+        padding:10px;
+        width:35px;
+    }
+    .testimonials ul li{
+        padding:10px;
+
+    }
+
+    .slide{
+        padding:10px;
+    }
+    .slide img{
+        width:50px;
+        border:3 px solid #212EA0;
+    }
+}
+
+
+@media (max-width:600px) {
+    .user info{
+        display:block;
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+    .user-info h3{
+        font-size: 16px;
+    }
+
+    .slider p{
+        font-size: 12px;
+    }
+
+    
+}

@@ -1,0 +1,76 @@
+.tours {
+    margin: 80px auto;
+    width: 90%;
+    text-align: center;
+}
+
+.tours-title {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.tours-description {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.gallery {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.gallery img {
+    width: 23%;
+    border-radius: 10px;
+}
+
+.gallery-slideshow {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden; /* Hide images moving out of view */
+}
+
+.gallery-slideshow .slide {
+    position: absolute;
+    top: 0;
+    left: 100%; /* Start each image off-screen to the right */
+    width: 100%;
+    height: auto;
+    transition: transform 1s ease-in-out, left 1s ease-in-out;
+    opacity: 0; /* Hide all images initially */
+}
+
+.gallery-slideshow .slide.active {
+    left: 0; /* Slide into view */
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.gallery-slideshow .slide:nth-child(n+2) {
+    transform: translateX(-100%); /* Move inactive slides off-screen */
+    opacity: 0;
+}
+
+
+.tours-btn {
+    display: inline-flex;
+    align-items: center;
+    background: #ff521a;
+    color: white;
+    padding: 14px 25px;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    gap: 10px;
+}
+
+.tours-btn img {
+    width: 20px;
+}

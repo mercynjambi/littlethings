@@ -1,0 +1,106 @@
+ .involvement-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    background-color: #fffdf1;
+    text-align: center;
+  } 
+
+
+ 
+  
+  .get-involved-heading {
+    color: #121313;
+    font-size: 19PX;
+    margin-bottom: 20px;
+  }
+  
+  .main-heading {
+    font-size: 50px;
+    margin-bottom: 40px;
+    font-weight: 800;
+    color:#121313;
+  }
+  
+  .involvement-options {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .involvement-card {
+    background-color: #FAF5E4;    
+    border: 3px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(250, 245, 228, 0.8);
+    padding: 10px;
+    margin: 10px;
+    flex: 1;
+    display: flex;
+    flex: 0 0 300px;
+    flex-direction: column;
+    align-items: center; /* Centers content horizontally */
+    justify-content: center; /* Centers content vertically */    
+    height:300px; 
+    text-align: center;
+    display: flex;
+
+}
+
+.involvement-card p{
+  color:#121313;
+  font: 10px;
+}
+  
+ 
+  
+
+.involvement-icon {
+  font-size: 60px; /* Increase the size slightly */
+  color: #121313 ; /* Ensure it's visible on the background */
+  margin-bottom: 10px;
+}
+
+
+  .h3-involment{
+    margin-bottom: 5px;
+    font-size: 20px;
+    color:black;
+    font-weight: bold;
+  }
+  
+  .involvement-btn {
+    background-color: #e4e4e4;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+  
+  .involvement-btn:hover {
+    background-color: #555;
+  }
+
+  /* Media query to stack cards vertically on smaller screens */
+@media (max-width: 768x) {
+  .involvement-container {
+    flex-direction: column; /* Stacks cards vertically on smaller screens */
+  }
+
+  .involvement-card {
+    width: 100%; /* Full width for each card on small screens */
+    max-width: 400px; /* Optional: Limit max width for each card */
+  }
+}
+  
+
+
+  
+  
+  

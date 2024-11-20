@@ -1,0 +1,50 @@
+/* VolunteerFormPage.css and MemberFormPage.css */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f9f9f9;
+}
+
+.form-container h1 {
+  color: #f39c12;
+  margin-bottom: 10px;
+  margin-top: 10px; 
+}
+
+form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  max-width: 500px;
+  padding: 20px;               /* Add padding inside the form */
+  border: 2px solid black;     /* Apply border to form */
+  border-radius: 8px;          /* Optional: rounded corners */
+  background-color: white;  
+  margin-bottom: 50px;   /* Optional: add background for contrast */
+}
+
+label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input, select {
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px;
+  color: white;
+  background-color: #f39c12;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

@@ -1,0 +1,81 @@
+.team {
+    text-align: center;  /* Centers h2 and p */
+    padding: 20px;
+    width:100%
+  }
+  
+  .team h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color:#121313;
+}
+  
+  
+  .team hr {
+    width: 40%;  /* Adjust width of the horizontal line */
+    margin: 20px auto;
+    color:#121313;
+}
+  
+  
+  .team p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+    color:#121313;
+  }
+  
+  .members {
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:5px;
+  }
+  
+  .team-mem {
+  flex: 1 1 22%;
+   /* Each card has a base width of 300px */
+  padding: 10px;
+  background-color: #fff;
+  border: 3px solid #ddd;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+    
+   
+  }
+  
+  .team-mem img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    object-fit: cover;  /* Ensures the image maintains aspect ratio */
+  }
+  
+  .team-mem h4 {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .team-mem p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+
+  @media(max-width:768px){
+    .members{
+        flex-direction: column;
+    }
+
+    .team-mem{
+        flex-basis: 100%;
+    }
+
+  }

@@ -1,0 +1,36 @@
+.donate-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh; /* Full viewport height */
+  padding: 20px;
+  background-color: #f9f9f9; /* Optional background color */
+  /* Use your preferred font family */
+}
+
+.donate-container h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.donate-container p {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+  color: #555;
+}
+
+.account-number,
+.paybill-number {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #0ef; /* Matches your --main-color */
+}
+
+.thank-you {
+  margin-top: 2rem;
+  font-style: italic;
+  color: #333;
+}

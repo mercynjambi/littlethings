@@ -1,0 +1,135 @@
+.contact {
+    margin: 50px auto 30px;  
+    max-width: 90%;
+    display: flex;  
+    background-color: #094c3b;
+    align-content:center;/* Align items to the start to keep both columns aligned */
+    justify-content: space-between; /* Space between columns */
+}
+
+.contact-h2 {
+    margin-bottom: 4rem;
+    text-align: center;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    font-size: 2.5rem;
+}
+
+
+.contact-col {
+    flex-basis: 48%; /* Each column will take up to 48% of the width */
+    color: #676767;
+}
+
+.contact .contact-col h3{
+    margin-bottom: 20px;
+}
+
+
+
+.contact-col h3 {
+    color: var(--text-color);
+    font-weight: 500;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.contact-col h3 img {
+    width: 35px;
+    margin-left: 10px;
+}
+
+.contact-col p {
+    color:var(--text-color);
+    font-size:1.2rem;
+    max-width: 450px;
+    line-height: 1.3; /* Adjust line-height for better readability */
+    /* margin-bottom: 20px;  */
+}
+
+.contact-col ul li {
+    display: flex;
+    color:var(--text-color);
+    font-size: 1.2rem;;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.contact-col ul li i {
+    width: 4rem;
+    height:4rem;
+    background: transparent;    
+    color:white ;
+    margin-right: 10px;
+    padding:.5rem;
+    border: 2px solid var(--main-color);
+    border-radius: 50%; 
+    transition: 0.5 ease;
+    display: flex;               /* Enable flexbox */
+    justify-content: center;     /* Center horizontally */
+    align-items: center; 
+    
+}
+
+
+
+
+.contact-col ul li i:hover{
+    background: var(--main-color);
+    color: var(--second-bg-color);
+    box-shadow:0 0 1rem var(--main-color);
+
+}
+
+
+/* Form styling */
+
+
+.contact form input, .contact form textarea {
+    display: block;
+    width: 100%;
+    background: #EBECFE;
+    padding: 15px;
+    border: 0;
+    outline: 0;
+    margin-bottom: 15px; /* Space below each field */
+    margin-top: 5px; /* Space above each field */
+    resize: none; /* Prevent resizing of textarea */
+}
+
+
+.contact form label{
+    font-size: 1.2rem;
+    color:var(--text-color)
+}
+.btn {
+    display: flex;                /* Enable flexbox layout */
+    align-items: center;  
+    border-radius: 20px;        /* Center text and image vertically */
+    gap: 8px;                     /* Add space between text and image */
+}
+
+.btn img {
+    width: 16px;                  /* Adjust width as needed */
+    height: auto;                 /* Maintain aspect ratio */
+}
+
+.contact-col span {
+    display: block;
+    margin: 20px 0;
+    font-size: 15px;
+}
+
+/* Media query for responsive design */
+@media (max-width: 700px) {
+    .contact {
+        display: block; 
+    }
+
+    .contact-col {
+        padding: 20px; 
+        flex-basis: 100%; 
+    }
+}
