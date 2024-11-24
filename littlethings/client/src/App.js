@@ -13,6 +13,7 @@ import Testimonials from './components/Testimonials';
 import Contacts from './components/Contacts';
 import Donate from './components/PaymentForm';
 import Gallery from './components/Gallery'
+import Pillars from './components/Pillars';
 
 function App() {
   return (
@@ -47,6 +48,7 @@ function App() {
           
 
           <Route path="/about" element={<About />} />
+          <Route path="/pillars" element={<Pillars />} />
           <Route path="/involve" element={<Involve />} />
           <Route path="/volunteer" element={<Volunteer />}/>
           <Route path="/membership" element={<Membership />} />
