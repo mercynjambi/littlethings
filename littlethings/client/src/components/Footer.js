@@ -15,10 +15,19 @@ const Footer = () => {
             <h4>My Little Thing</h4>
             <p>Small Acts, Big Impacts!!</p>
             <div className="social-links">
-              <a href="#"><FontAwesomeIcon icon={faFacebookF} /></a>
-              <a href="#"><FontAwesomeIcon icon={faTwitter} /></a>
-              <a href="#"><FontAwesomeIcon icon={faInstagram} /></a>
-              <a href="#"><FontAwesomeIcon icon={faLinkedinIn} /></a>
+              <a href="https://www.facebook.com/profile.php?id=61552651657086" target="_blank" rel="noopener noreferrer">
+                <FontAwesomeIcon icon={faFacebookF} />
+              </a>
+              <a href="https://www.instagram.com/mylittlething19/" target="_blank" rel="noopener noreferrer">
+                <FontAwesomeIcon icon={faInstagram} />
+              </a>
+              <a href="https://www.linkedin.com/in/ramadhan-obiero-32575356/" target="_blank" rel="noopener noreferrer">
+                <FontAwesomeIcon icon={faTwitter} />
+              </a>
+              <a href="https://www.linkedin.com/in/ramadhan-obiero-32575356/" target="_blank" rel="noopener noreferrer">
+                <FontAwesomeIcon icon={faLinkedinIn} />
+              </a>
+              
             </div>
           </div>
           

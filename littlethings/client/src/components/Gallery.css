@@ -1,76 +1,120 @@
-.tours {
-    margin: 80px auto;
-    width: 90%;
-    text-align: center;
+/* Gallery Container */
+.gallery-section {
+  padding: 4rem 1rem;
+  background-color: #f9fafb;
 }
 
-.tours-title {
-    font-size: 2em;
-    color: #333;
-    margin-bottom: 10px;
+.gallery-container {
+  max-width: 1280px;
+  margin: 0 auto;
 }
 
-.tours-description {
-    font-size: 1.2em;
-    color: #666;
-    margin-bottom: 30px;
+.gallery-header {
+  text-align: center;
+  margin-bottom: 3rem;
 }
 
-.gallery {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 40px;
+.gallery-title {
+  font-size: 2.25rem;
+  font-weight: bold;
+  color: #111827;
+  margin-bottom: 1rem;
 }
 
-.gallery img {
-    width: 23%;
-    border-radius: 10px;
+.gallery-subtitle {
+  font-size: 1.25rem;
+  color: #4b5563;
 }
 
-.gallery-slideshow {
-    position: relative;
-    width: 100%;
-    height: auto;
-    overflow: hidden; /* Hide images moving out of view */
+/* Image Carousel */
+.carousel-container {
+  position: relative;
+  width: 100%;
 }
 
-.gallery-slideshow .slide {
-    position: absolute;
-    top: 0;
-    left: 100%; /* Start each image off-screen to the right */
-    width: 100%;
-    height: auto;
-    transition: transform 1s ease-in-out, left 1s ease-in-out;
-    opacity: 0; /* Hide all images initially */
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
 }
 
-.gallery-slideshow .slide.active {
-    left: 0; /* Slide into view */
-    transform: translateX(0);
-    opacity: 1;
+.image-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  transition: transform 0.3s ease;
 }
 
-.gallery-slideshow .slide:nth-child(n+2) {
-    transform: translateX(-100%); /* Move inactive slides off-screen */
-    opacity: 0;
+.image-card:hover {
+  transform: scale(1.05);
 }
 
-
-.tours-btn {
-    display: inline-flex;
-    align-items: center;
-    background: #ff521a;
-    color: white;
-    padding: 14px 25px;
-    border-radius: 30px;
-    font-size: 16px;
-    cursor: pointer;
-    border: 0;
-    outline: 0;
-    gap: 10px;
+.image-card img {
+  width: 100%;
+  height: 16rem;
+  object-fit: cover;
+  border-radius: 0.5rem;
 }
 
-.tours-btn img {
-    width: 20px;
+.image-caption {
+  text-align: center;
+  padding: 0.75rem;
+  font-size: 1rem;
+  color: #374151;
+  font-weight: 500;
+}
+
+/* Navigation Buttons */
+.nav-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: white;
+  border: none;
+  border-radius: 9999px;
+  padding: 0.5rem;
+  cursor: pointer;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  transition: background-color 0.2s;
+}
+
+.nav-button:hover {
+  background-color: #f3f4f6;
+}
+
+.nav-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.nav-button.prev {
+  left: 0;
+  transform: translate(-3rem, -50%);
+}
+
+.nav-button.next {
+  right: 0;
+  transform: translate(3rem, -50%);
+}
+
+/* Pagination Dots */
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 2rem;
+}
+
+.dot {
+  width: 0.625rem;
+  height: 0.625rem;
+  border: none;
+  border-radius: 9999px;
+  background-color: #d1d5db;
+  transition: background-color 0.2s;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: #094c3b;
 }

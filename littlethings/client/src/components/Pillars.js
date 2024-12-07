@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './Pillars.css';
 import About from './About'; // Adjust the path as per your project structure
 import Footer from './Footer';
+import MissionVision from './MissionVision'; // Adjust the path as per your project structure'
 
 const pillarsData = [
   {
@@ -25,12 +26,7 @@ const pillarsData = [
                   programs for widows, orphans, and youth.`,
     icon: "🤝",
   },
-  {
-    id: 4,
-    title: "Global Exchange Programs",
-    description: `Our exchange programs for international students promote global understanding, mentorship, and sustainable project development.`,
-    icon: "🌍",
-  },
+  
 ];
 
 function PillarsPage() {
@@ -58,12 +54,13 @@ function PillarsPage() {
           </div>
         ))}
       </div>
-      <button className="view-all-button" onClick={togglePillars}>
+      {/* <button className="view-all-button" onClick={togglePillars}>
         {isViewAll ? 'Show Less' : 'View All Pillars'}
-      </button>
+      </button> */}
 
       {/* About Section */}
       <About />
+      <MissionVision/>
 
       {/* Footer Section */}
       <Footer />

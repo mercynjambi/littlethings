@@ -14,6 +14,7 @@ import Contacts from './components/Contacts';
 import Donate from './components/PaymentForm';
 import Gallery from './components/Gallery'
 import Pillars from './components/Pillars';
+import MissionVision  from  './components/MissionVision';
 
 function App() {
   return (
@@ -54,6 +55,7 @@ function App() {
           <Route path="/membership" element={<Membership />} />
           <Route path="/donate" element={<Donate />} />
           <Route path="/contacts" element={<Contacts />} />
+          <Route path="/missionvision" element={<MissionVision />} />
         </Routes>
       </div>
     </Router>
