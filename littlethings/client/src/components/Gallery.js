@@ -18,14 +18,14 @@ const Gallery = () => {
   const [currentPage, setCurrentPage] = useState(0);
 
   const images = [
-    { src: littlething6, caption: 'Food Donation in Kibra' },
-    { src: littlething7, caption: 'Nairobi' },
-    { src: littlething9, caption: 'Kisumu' },
-    { src: littlething10, caption: 'Malindi' },
-    { src: events1, caption: 'Eldoret' },
-    { src: events2, caption: 'Diani' },
-    { src: events3, caption: 'Naivasha' },
-    { src: events4, caption: 'Nakuru' },
+    { src: littlething6, caption: 'Hustle ya daily' },
+    { src: littlething7, caption: 'Hustle ya daily' },
+    { src: littlething9, caption: 'Hustle ya daily' },
+    { src: littlething10, caption: 'Hustle ya daily' },
+    { src: events1, caption: 'Kajiado' },
+    { src: events2, caption: 'kajiado' },
+    { src: events3, caption: 'kajiado' },
+    { src: events4, caption: 'Kajiado' },
   ];
 
   return (
