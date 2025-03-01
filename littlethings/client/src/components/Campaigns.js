@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import './Campaigns.css';
 import { useNavigate } from 'react-router-dom';
-import littlething8 from './assets/littlething8.jpg'
+import toddler from './assets/toddler.jpg'
+import mtaani from './assets/mtaani.jpg'
+import hustle from './assets/hustle.jpg'
 
 const campaigns = [
   {
@@ -16,7 +18,7 @@ const campaigns = [
     title: 'Tutembee Mtaani',
     description: 'Tutembee Mtaani is a charitable initiative where children visit teen mothers and boys in need, sharing clothing, monetary contributions, and other donations. This program fosters compassion and community support by connecting young donors with disadvantaged individuals.',
     expiryDate: '2024-12-31',
-    image: 'https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Y2hhcml0eSUyMGRvbmF0aW9ufGVufDB8fDB8fHww',
+    image: mtaani,
   },
 
   {
@@ -24,14 +26,14 @@ const campaigns = [
     title: 'Hustle Ya Daily',
     description: 'This project addresses the financial challenges faced by teen and young mothers in Kenya by equipping them with entrepreneurial skills and resources to start small ice cream vending businesses. In partnership with Lyons Maid, the project will train 100 teen and young mothers, providing them with ice cream coolers, product stock, and business management skills',
     expiryDate: '2024-11-15',
-    image: 'https://images.unsplash.com/photo-1507427254987-7be33d0321d3?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YWZyaWNhbiUyMGNoaWxkfGVufDB8fDB8fHww',
+    image: hustle,
   },
   {
     id: 4,
     title: "Toddlers' Corner",
     description: ' This is a program where children engage in fun games and friendly competitions, with their parents actively involved. This initiative aims to help kids uncover their talents early and provides a foundation for nurturing their abilities from a young age',
     expiryDate: '2024-10-30',
-    image: 'https://media.istockphoto.com/id/1066589128/photo/toddler-friends-playing-hopscotch-outdoors.jpg?s=612x612&w=0&k=20&c=GoRZZFZeYTxdSu-_sFYdVSLoPwWI8PCcoe2_YYPJZME=',
+    image: toddler,
   },
   {
     id: 5,
