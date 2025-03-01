@@ -38,11 +38,11 @@ const Testimonials = () => {
               <div className="user-info">
                 <img src={user_1} alt="User 1" />
                 <div className="user-text">
-                  <h3>Jane Njeri</h3>
+                  <h3>Jane Wambui</h3>
                   <span>Kajiado, Kenya</span>
                 </div>
               </div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel ex ac felis viverra fermentum. Nulla facilisi. In euismod ante vel dolor consectetur, in bibendum urna consectetur.</p>
+              <p>Through My Little Thing, I have learnt how to start and manage my small business but also how to budget and manage a small business.  This opportunity has changed my life. </p>
             </div>
           </li>
           <li>
@@ -50,11 +50,11 @@ const Testimonials = () => {
               <div className="user-info">
                 <img src={user_2} alt="User 2" />
                 <div className="user-text">
-                  <h3>Jane Njeri 2</h3>
-                  <span>Kajiado, Kenya</span>
+                  <h3>Mary Atieno</h3>
+                  <span>Nairobi, Kenya</span>
                 </div>
               </div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel ex ac felis viverra fermentum. Nulla facilisi. In euismod ante vel dolor consectetur, in bibendum urna consectetur.</p>
+              <p>I used to struggle to find financial stability as  a young mum, but the enterpreneurship training from my Little Thing gave me confidence and skills to  start my own businness. </p>
             </div>
           </li>
           <li>
@@ -62,11 +62,11 @@ const Testimonials = () => {
               <div className="user-info">
                 <img src={user_3} alt="User 3" />
                 <div className="user-text">
-                  <h3>Jane Njeri 3</h3>
+                  <h3>Kennedy Parmuat</h3>
                   <span>Kajiado, Kenya</span>
                 </div>
               </div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel ex ac felis viverra fermentum. Nulla facilisi. In euismod ante vel dolor consectetur, in bibendum urna consectetur.</p>
+              <p>I love playing football but I never had proper sports gear. My Little Thing gave us jerseya and football kits, and now our school team looks like real champions.</p>
             </div>
           </li>
           <li>
@@ -74,11 +74,11 @@ const Testimonials = () => {
               <div className="user-info">
                 <img src={user_4} alt="User 4" />
                 <div className="user-text">
-                  <h3>Jane Njeri 4</h3>
+                  <h3>Stacy Resiato</h3>
                   <span>Kajiado, Kenya</span>
                 </div>
               </div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel ex ac felis viverra fermentum. Nulla facilisi. In euismod ante vel dolor consectetur, in bibendum urna consectetur.</p>
+              <p>I used to share a  single book with my classmates because we did not have enough. But now, thanks to my little thing, I have my own books and learning has become easier.</p>
             </div>
           </li>
         </ul>

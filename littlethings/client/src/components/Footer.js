@@ -13,7 +13,7 @@ const Footer = () => {
           {/* Organization Info */}
           <div className="footer-col">
             <h4>My Little Thing</h4>
-            <p>Small Acts, Big Impacts!!</p>
+            <p>Small Acts, Big Impact!!</p>
             <div className="social-links">
               <a href="https://www.facebook.com/profile.php?id=61552651657086" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faFacebookF} />

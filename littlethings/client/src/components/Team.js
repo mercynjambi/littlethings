@@ -23,14 +23,14 @@ const TeamSection = () => {
       <div className="members">
         
         <div className="team-mem">
-          <img src={robi1} alt="founder" />
+          <img src={robi2} alt="founder" />
           <h4>Ramadhan Obiero</h4>
-          <p>Founder</p>
+          <p> Chief Executive Officer & Founder</p>
         </div>
         
         <div className="team-mem">
           <img src={hulda1} alt="Mr. David" />
-          <h4>Houlda Kitambaa</h4>
+          <h4>Houlda Kitamba</h4>
           <p>Marketing & Business Advisor</p>
         </div>
         

@@ -1,137 +1,154 @@
-.navbar{
-  width:100%;
-  background:white; 
-  color:black;
-  padding:4px 0;
+.navbar {
+  width: 100%;
+  max-width: 100%;
+  background: white;
+  color: black;
+  padding: 4px 0;
   position: fixed;
-  top:0;
-  left:0;
-  display:flex;
+  top: 0;
+  left: 0;
+  display: flex;
   align-items: center;
   justify-content: space-between;
-  z-index:1;
+  z-index: 1;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
-.logo{
+.logo {
   font-size: 30px;
-  width:100px;
-  height:100px;
-  font-weight:600;
-  /* color: black;
-  margin-left: 30px; */
-  color:#094c3b;
+  width: 100px;
+  height: 100px;
+  font-weight: 600;
+  color: #094c3b;
 }
 
-nav ul li{
+nav ul li {
   display: inline-block;
   list-style: none;
   margin: 5px 20px;
-  font-size:16px;
+  font-size: 16px;
   color: black;
-
 }
 
 nav ul li a {
-  text-decoration: none; /* Remove the default underline */
-  color: black; /* Ensure the text is black */
-  position: relative; /* Necessary for the pseudo-element */
+  text-decoration: none;
+  color: black;
+  position: relative;
 }
 
 nav ul li a::after {
-  content: ""; /* Creates a pseudo-element */
+  content: "";
   display: block;
-  width: 0; /* Start with no width */
-  height: 2px; /* Height of the underline */
-  background: #ff521a; /* Set the underline color */
-  transition: width 0.3s ease; /* Smooth animation */
+  width: 0;
+  height: 2px;
+  background: #ff521a;
+  transition: width 0.3s ease;
   position: absolute;
-  bottom: 0; /* Position it at the bottom of the text */
+  bottom: 0;
   left: 0;
 }
 
 nav ul li a:hover::after {
-  width: 100%; /* Expand the underline on hover */
+  width: 100%;
 }
 
-
-.btn img{
-  width:20px;
-  color:black;
-  
+.btn img {
+  width: 20px;
+  color: black;
   margin-left: 10px;
 }
 
-.btn.dark-btn{
-  background:#043927;
+.btn.dark-btn {
+  background: #043927;
   color: white;
 }
 
-.nav-btn{
+.nav-btn {
   background-color: #ff521a;
-  padding:10px 10px;
+  padding: 10px 10px;
   border-radius: 10px;
 }
 
-.menu-icon{
-  display:none;
+.menu-icon {
+  display: none;
   width: 30px;
-  height:30px;
-  color:black;
-  cursor: pointer;
+  height: 30px;
   color: black;
+  cursor: pointer;
 }
 
-@media(max-width:1200px){
-  .navbar{
+@media (max-width: 1200px) {
+  .navbar {
     padding-left: 5%;
     padding-right: 5%;
   }
 
-  
-  .btn{
+  .btn {
     padding: 14px 22px;
   }
 }
 
-@media(max-width:1000px){
-  .logo{
-    .logo{
-      width:75px;
-      height:75px;
-    }
-    
+@media (max-width: 1000px) {
+  .logo {
+    width: 75px;
+    height: 75px;
   }
-  .nav ul li{
-    margin:10px 15px;
+
+  nav ul li {
+    margin: 10px 15px;
   }
 }
 
-@media(max-width:840px){
-  nav{
+@media (max-width: 840px) {
+  nav {
     padding: 15px 0;
-
   }
-  nav ul{
+
+  nav ul {
     position: fixed;
-    top:0;
-    right:0px;
+    top: 0;
+    right: 0;
     bottom: 0;
     background: #094c3b;
     z-index: -1;
-    width:200px;
+    width: 200px;
     padding-top: 70px;
     transition: 0.4s;
   }
-  nav ul li{
+
+  nav ul li {
     display: block;
     margin: 25px 40px;
   }
-  .menu-icon{
-    display:block ;
-    width:30px;
-    cursor:pointer;
+
+  .menu-icon {
+    display: block;
+    width: 30px;
+    cursor: pointer;
+    position: absolute; /* Position the menu icon absolutely */
+    right: 20px; /* Adjust the right position as needed */
+    top: 20px; /* Adjust the top position as needed */
   }
-  .hide-mobile-menu{
-    right:-200px;
+
+  .hide-mobile-menu {
+    right: -200px;
+  }
+}
+
+/* New media query for very small screens */
+@media (max-width: 480px) {
+  .navbar {
+    padding-left: 2%; /* Reduce padding for very small screens */
+    padding-right: 2%;
+  }
+
+  .logo {
+    width: 60px; /* Further reduce logo size */
+    height: 60px;
+  }
+
+  .menu-icon {
+    right: 10px; /* Adjust the right position for very small screens */
+    top: 15px; /* Adjust the top position for very small screens */
   }
 }
