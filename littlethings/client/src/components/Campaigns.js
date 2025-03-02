@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Campaigns.css';
 import { useNavigate } from 'react-router-dom';
+import littlething8 from './assets/littlething8.jpg'
 import toddler from './assets/toddler.jpg'
 import mtaani from './assets/mtaani.jpg'
 import hustle from './assets/hustle.jpg'
