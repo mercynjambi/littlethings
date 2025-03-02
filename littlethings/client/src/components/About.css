@@ -2,7 +2,7 @@
   margin: 5px auto;
   display:flex;
   align-items:center;
-  padding-top: 30px;
+  padding-top: 60px; 
   padding-bottom: 30px;
   justify-content:space-between;
   width:100%;
@@ -19,6 +19,7 @@
 }
 .about-right{
   flex-basis:56%;
+  padding-top: 30px;
 }
 .about-img{
   width:100%;
