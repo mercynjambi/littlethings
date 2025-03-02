@@ -55,7 +55,7 @@ const VolunteerFormPage = () => {
   };
 
   return (
-    <div className="form-container">
+    <div className="form-container-vol">
       <h1>Volunteer with Us</h1>
       <form onSubmit={onSubmit}>
         <label>Name</label>

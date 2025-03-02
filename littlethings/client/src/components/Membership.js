@@ -22,7 +22,7 @@ const MemberFormPage = () => {
 
   return (
     <div className="form-container">
-      <h1>Become a Member</h1>
+      <h1 className='form-container-text'>Become a Member</h1>
       <form onSubmit={handleSubmit}>
         <label>Name</label>
         <input type="text" name="name" value={formData.name} onChange={handleChange} required />

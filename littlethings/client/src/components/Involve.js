@@ -25,7 +25,7 @@ const Involvement = () => {
 
   return (
     <div className="involvement-container">
-      {/* <h3 className="get-involved-heading">GET INVOLVED</h3> */}
+       
       <h1 className="main-heading">Let's Make A Difference Today</h1>
 
       <div className="involvement-options">

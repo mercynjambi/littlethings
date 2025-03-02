@@ -50,7 +50,7 @@ const Contacts = () => {
         <ul>
           <li>
           <i class='bx bx-envelope'></i>
-            mylittlething@gmail.com
+            mylittlething2023@gmail.com
           </li>
           <li>
           <i class='bx bxs-phone-call'></i>

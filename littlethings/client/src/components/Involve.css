@@ -1,4 +1,5 @@
  .involvement-container {
+  
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -16,6 +17,7 @@
   .get-involved-heading {
     color: #121313;
     font-size: 19PX;
+    
     margin-bottom: 20px;
   }
   

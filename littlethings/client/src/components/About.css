@@ -1,7 +1,9 @@
 .about{
-  margin:100px auto;
+  margin: 5px auto;
   display:flex;
   align-items:center;
+  padding-top: 30px;
+  padding-bottom: 30px;
   justify-content:space-between;
   width:100%;
   min-height: 100vh;  
